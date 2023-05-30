@@ -9,6 +9,7 @@ license = "MIT"
 python = "^3.8"
 spotipy = "^2.18.0"
 python-dotenv = "^0.17.1"
+urllib3 = "<=2.0"
 
 [tool.poetry.dev-dependencies]
 black = "^21.5b0"

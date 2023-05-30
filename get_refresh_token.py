@@ -25,7 +25,7 @@ redirect_server = None
 # Start up a server at the redirct uri so that the browser has somewhere to go.
 if "localhost" in config["REDIRECT_URI"]:
     port = config["REDIRECT_URI"].rstrip("/").split(":")[-1]
-    redirect_server = Popen(["python", "-m", "http.server", port])
+    redirect_server = Popen(["python3", "-m", "http.server", port])
 
 
 print(f"1. Open the following link in your browser:\n\n{url}\n")
